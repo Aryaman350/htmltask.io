@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <label for="first name">First Name:</label>
+    <input type="text" id="first name" name="first name" required><br><br>
+
+    <label for="last name">Last Name:</label>
+    <input type="text" id="last name" name="last name" required><br><br>
+
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select a country</option>
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Australia">Australia</option>
+      <!-- Add more countries here -->
+    </select><br><br>
+
+    <label>Languages Known:</label>
+    <input type="checkbox" id="english" name="language" value="english">
+    <label for="english">English</label>
+    <input type="checkbox" id="kannada" name="language" value="kannada">
+    <label for="kannada">Kannada</label>
+    <input type="checkbox" id="hindi" name="language" value="hindi">
+    <label for="hindi">Hindi</label>
+    <input type="checkbox" id="telugu" name="language" value="telugu">
+    <label for="telugu">Telugu</label><br><br>
+
+    <input type="checkbox" id="accept_terms" name="accept_terms" required>
+    <label for="accept_terms">Hereby I declare all the given details are true.</label><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
